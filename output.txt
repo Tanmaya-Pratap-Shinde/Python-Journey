@@ -1,0 +1,3 @@
+C:\Users\HP\A. Python Journey\importing>python main.py
+Welcome to the Nmap scanner
+httpbin.org -> 44.207.188.95
