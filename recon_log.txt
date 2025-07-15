@@ -1,0 +1,20 @@
+httpbin.org -> 3.229.116.23
+github.com -> 20.207.73.82
+example.com -> 23.192.228.80
+google.com -> 142.251.43.14
+httpbin.org -> 3.213.24.5
+github.com -> 20.207.73.82
+example.com -> 23.192.228.80
+google.com -> 142.251.43.14
+httpbin.org -> 3.233.51.125
+github.com -> 20.207.73.82
+example.com -> 23.192.228.80
+google.com -> 142.251.43.14
+❌ Could not resolve nonexistent.domain.
+
+localhost -> 127.0.0.1
+microsoft.com -> 13.107.246.68
+stackoverflow.com -> 172.64.155.249
+python.org -> 151.101.64.223
+❌ Could not resolve thissitedoesnotexist.xyz.
+
