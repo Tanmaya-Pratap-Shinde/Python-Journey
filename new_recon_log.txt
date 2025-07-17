@@ -1,5 +1,0 @@
-example.com -> 23.192.228.80
-github.com -> 20.207.73.82
-httpbin.org -> 3.233.51.125
-❌ Could not resolve invalid.domain123.
-
