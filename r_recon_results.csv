@@ -1,0 +1,8 @@
+Domain,Status
+example.com,✅ example.com -> 23.192.228.80
+github.com,✅ github.com -> 20.207.73.82
+amazon.in,✅ amazon.in -> 54.239.33.92
+httpbin.org,✅ httpbin.org -> 54.164.55.235
+notavailable.123,❌ Could not resolve notavailable.123
+domain.xyz,✅ domain.xyz -> 96.45.82.60
+amazon.com,✅ amazon.com -> 52.94.236.248

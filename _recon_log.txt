@@ -1,0 +1,14 @@
+✅ example.com -> 23.192.228.80
+✅ github.com -> 20.207.73.82
+✅ amazon.in -> 52.95.120.67
+✅ httpbin.org -> 54.164.55.235
+❌ Could not resolve notavailable.123
+✅ domain.xyz -> 96.45.82.60
+✅ amazon.com -> 52.94.236.248
+✅ example.com -> 23.192.228.80
+✅ github.com -> 20.207.73.82
+✅ amazon.in -> 54.239.33.92
+✅ httpbin.org -> 54.164.55.235
+❌ Could not resolve notavailable.123
+✅ domain.xyz -> 96.45.82.60
+✅ amazon.com -> 52.94.236.248
