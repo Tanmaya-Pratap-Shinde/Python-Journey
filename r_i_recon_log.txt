@@ -1,0 +1,30 @@
+✅ example.com -> 23.192.228.80
+✅ github.com -> 20.207.73.82
+✅ httpbin.org -> 3.213.24.5
+❌ Could not resolve invalid.domain
+✅ localhost -> 127.0.0.1
+❌ Could not resolve gov.in
+❌ Could not resolve mohw.gov.in
+✅ harvard.edu -> 192.0.66.20
+✅ banksecure.org -> 3.33.130.190
+✅ education.maharashtra.gov.in -> 115.124.116.156
+✅ nasa.gov -> 192.0.66.108
+✅ python.org -> 151.101.192.223
+✅ openai.com -> 172.64.154.211
+❌ Could not resolve health.nic.in
+❌ Could not resolve thissitedoesnotexist.xyz
+✅ example.com -> 23.192.228.80
+✅ github.com -> 20.207.73.82
+✅ httpbin.org -> 3.213.24.5
+❌ Could not resolve invalid.domain
+✅ localhost -> 127.0.0.1
+❌ Could not resolve gov.in
+❌ Could not resolve mohw.gov.in
+✅ harvard.edu -> 192.0.66.20
+✅ banksecure.org -> 3.33.130.190
+✅ education.maharashtra.gov.in -> 115.124.116.156
+✅ nasa.gov -> 192.0.66.108
+✅ python.org -> 151.101.192.223
+✅ openai.com -> 172.64.154.211
+❌ Could not resolve health.nic.in
+❌ Could not resolve thissitedoesnotexist.xyz

@@ -1,0 +1,16 @@
+Domain,Status
+example.com,✅ example.com -> 23.192.228.80
+github.com,✅ github.com -> 20.207.73.82
+httpbin.org,✅ httpbin.org -> 3.213.24.5
+invalid.domain,❌ Could not resolve invalid.domain
+localhost,✅ localhost -> 127.0.0.1
+gov.in,❌ Could not resolve gov.in
+mohw.gov.in,❌ Could not resolve mohw.gov.in
+harvard.edu,✅ harvard.edu -> 192.0.66.20
+banksecure.org,✅ banksecure.org -> 3.33.130.190
+education.maharashtra.gov.in,✅ education.maharashtra.gov.in -> 115.124.116.156
+nasa.gov,✅ nasa.gov -> 192.0.66.108
+python.org,✅ python.org -> 151.101.192.223
+openai.com,✅ openai.com -> 172.64.154.211
+health.nic.in,❌ Could not resolve health.nic.in
+thissitedoesnotexist.xyz,❌ Could not resolve thissitedoesnotexist.xyz

@@ -1,0 +1,15 @@
+example.com
+github.com
+httpbin.org
+invalid.domain
+localhost
+gov.in
+mohw.gov.in
+harvard.edu
+banksecure.org
+education.maharashtra.gov.in
+nasa.gov
+python.org
+openai.com
+health.nic.in
+thissitedoesnotexist.xyz
