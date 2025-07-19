@@ -1,0 +1,7 @@
+example.com
+github.com
+amazon.in
+httpbin.org
+notavailable.123
+domain.xyz
+amazon.com

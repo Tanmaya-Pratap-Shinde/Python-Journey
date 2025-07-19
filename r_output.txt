@@ -1,0 +1,41 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\HP> cd "C:\Users\HP\A. Python Journey\ReconBot_2.0"
+PS C:\Users\HP\A. Python Journey\ReconBot_2.0> python main.py
+C:\Users\HP\AppData\Local\Programs\Python\Python313\python.exe: can't open file 'C:\\Users\\HP\\A. Python Journey\\ReconBot_2.0\\main.py': [Errno 2] No such file or directory
+PS C:\Users\HP\A. Python Journey\ReconBot_2.0> python r_main.py
+Traceback (most recent call last):
+  File "C:\Users\HP\A. Python Journey\ReconBot_2.0\r_main.py", line 3, in <module>
+    from r_exporter import export_csv, export_json
+  File "C:\Users\HP\A. Python Journey\ReconBot_2.0\r_exporter.py", line 12
+    data={domain: status foe domain, status in results}
+                  ^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+PS C:\Users\HP\A. Python Journey\ReconBot_2.0> python r_main.py
+📡 ✅ example.com -> 23.192.228.80
+📡 ✅ github.com -> 20.207.73.82
+📡 ✅ amazon.in -> 52.95.120.67
+📡 ✅ httpbin.org -> 54.164.55.235
+📡 ❌ Could not resolve notavailable.123
+📡 ✅ domain.xyz -> 96.45.82.60
+📡 ✅ amazon.com -> 52.94.236.248
+Traceback (most recent call last):
+  File "C:\Users\HP\A. Python Journey\ReconBot_2.0\r_main.py", line 22, in <module>
+    export_csv(results)
+    ~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\A. Python Journey\ReconBot_2.0\r_exporter.py", line 6, in export_csv
+    writer=csv.writer(f)
+                      ^
+NameError: name 'f' is not defined
+PS C:\Users\HP\A. Python Journey\ReconBot_2.0> python r_main.py
+📡 ✅ example.com -> 23.192.228.80
+📡 ✅ github.com -> 20.207.73.82
+📡 ✅ amazon.in -> 54.239.33.92
+📡 ✅ httpbin.org -> 54.164.55.235
+📡 ❌ Could not resolve notavailable.123
+📡 ✅ domain.xyz -> 96.45.82.60
+📡 ✅ amazon.com -> 52.94.236.248
+✅ Results saved to CSV and JSON.
