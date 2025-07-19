@@ -1,0 +1,17 @@
+{
+  "example.com": "\u2705 example.com -> 23.192.228.80",
+  "github.com": "\u2705 github.com -> 20.207.73.82",
+  "httpbin.org": "\u2705 httpbin.org -> 3.213.24.5",
+  "invalid.domain": "\u274c Could not resolve invalid.domain",
+  "localhost": "\u2705 localhost -> 127.0.0.1",
+  "gov.in": "\u274c Could not resolve gov.in",
+  "mohw.gov.in": "\u274c Could not resolve mohw.gov.in",
+  "harvard.edu": "\u2705 harvard.edu -> 192.0.66.20",
+  "banksecure.org": "\u2705 banksecure.org -> 3.33.130.190",
+  "education.maharashtra.gov.in": "\u2705 education.maharashtra.gov.in -> 115.124.116.156",
+  "nasa.gov": "\u2705 nasa.gov -> 192.0.66.108",
+  "python.org": "\u2705 python.org -> 151.101.192.223",
+  "openai.com": "\u2705 openai.com -> 172.64.154.211",
+  "health.nic.in": "\u274c Could not resolve health.nic.in",
+  "thissitedoesnotexist.xyz": "\u274c Could not resolve thissitedoesnotexist.xyz"
+}
