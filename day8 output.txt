@@ -1,0 +1,43 @@
+C:\Users\HP\A. Python Journey>python day8.py --input "Your OTP 432568 has been blocked. Act now at challan.com"
+[✅ Fake URL] No match
+[☊ OTP Scam] Match found: OTP\s+\d{4,6}
+Traceback (most recent call last):
+  File "C:\Users\HP\A. Python Journey\day8.py", line 24, in <module>
+    scan_text(args.input)
+    ~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\HP\A. Python Journey\day8.py", line 14, in scan_text
+    if re.search(pattern, input_text, re.IGNORECASE):
+       ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\re\__init__.py", line 177, in search
+    return _compile(pattern, flags).search(string)
+           ~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\re\__init__.py", line 350, in _compile
+    p = _compiler.compile(pattern, flags)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\re\_compiler.py", line 748, in compile
+    p = _parser.parse(p, flags)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\re\_parser.py", line 980, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\re\_parser.py", line 459, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+                ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                       not nested and not items))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\re\_parser.py", line 863, in _parse
+    p = _parse_sub(source, state, sub_verbose, nested + 1)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\re\_parser.py", line 459, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+                ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                       not nested and not items))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\re\_parser.py", line 543, in _parse
+    code = _escape(source, this, state)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\re\_parser.py", line 442, in _escape
+    raise source.error("bad escape %s" % escape, len(escape))
+re.PatternError: bad escape \i at position 7
+
+C:\Users\HP\A. Python Journey>python day8.py --input "Your OTP 432568 has been blocked. Act now at challan.com"
+[✅ Fake URL] No match
+[☊ OTP Scam] Match found: OTP\s+\d{4,6}
+[☊ Phishy Text] Match found: (urgent|immediate|act now|limited time)
+[✅ Fake Support] No match
+[✅ Payment Threat] No match
